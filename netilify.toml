@@ -1,0 +1,9 @@
+[build]
+command = "npm run build"
+publish= "/bulid"
+base ="/"
+
+[[redirects]]
+form = "/*"
+to = "/index.html"
+status = 200
