@@ -4,6 +4,6 @@ publish= "/bulid"
 base ="/"
 
 [[redirects]]
-form = "/*"
+from = "/*"
 to = "/index.html"
 status = 200
